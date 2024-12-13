@@ -1,0 +1,19 @@
+# Ignoriere das gesamte .ssh-Verzeichnis und spezifische Dateien
+.ssh/
+id_rsa*
+id_rsa.pub
+
+# Ignoriere weitere sensible Dateien und Verzeichnisse
+.storage/
+.cloud/
+.google.token
+secrets.yaml
+.env
+
+# Ignoriere Log-Dateien und Datenbanken
+*.log
+*.db
+
+# Optional: Ignoriere bestimmte temporäre Dateien oder Verzeichnisse
+tmp/
+temp/
